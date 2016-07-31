@@ -9,3 +9,9 @@ if ('addEventListener' in window) {
     $("#hi").addClass("animated zoomInUp");
     $("#main").addClass("animated flipInY");
 }
+
+document.getElementById("res_but").disabled = true;
+
+ function enableBtn(){
+    document.getElementById("res_but").disabled = false;
+   }
