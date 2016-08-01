@@ -10,8 +10,11 @@ if ('addEventListener' in window) {
     $("#main").addClass("animated flipInY");
 }
 
-document.getElementById("res_but").disabled = true;
+document.getElementById("res121").disabled = true;
+$("#res_a").addClass("not-active");
 
  function enableBtn(){
-    document.getElementById("res_but").disabled = false;
+    document.getElementById("res121").disabled = false;
+     $("#res_a").removeClass("not-active");
+
    }

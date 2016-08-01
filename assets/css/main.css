@@ -484,6 +484,7 @@ body.loading #main {
 /****** Footer ******/
 
 #footer {
+    position: relative;
     -webkit-align-self: center;
     align-self: center;
     width: 100%;
@@ -603,4 +604,9 @@ body.is-ie #wrapper {
 
 #sub-tag {
     opacity: 0;
+}
+
+.not-active {
+ pointer-events: none;
+ cursor: default;
 }
